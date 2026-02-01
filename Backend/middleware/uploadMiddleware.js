@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 // ABSOLUTE uploads path (CRITICAL)
-const uploadDir = path.join(process.cwd(), "uploads");
+const uploadDir = path.join(process.cwd(), "/tmp/uploads");
 
 // ensure uploads directory exists
 if (!fs.existsSync(uploadDir)) {
