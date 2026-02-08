@@ -8,7 +8,7 @@ import {
   FaPaperPlane,
 } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -47,7 +47,7 @@ export default function Footer() {
             <img
               src={logo}
               className="w-60 h-60 mx-auto md:mx-0"
-              alt="Raj Enterprise Logo"
+              alt="Rose Garment Clone Logo"
             />
           </div>
         </div>
@@ -59,11 +59,11 @@ export default function Footer() {
               onClick={() => navigate("/")}
               className="text-2xl font-semibold text-[#3c5f50] cursor-pointer"
             >
-              Raj Enterprise
+              Rose Garment Clone
             </h2>
 
             <p className="mt-3 text-gray-600 leading-relaxed">
-              "Raj Enterprise specializes in hospital uniforms and linen, serving
+              "Rose Garment Clone specializes in hospital uniforms and linen, serving
               over 200 hospitals across Mumbai since 2013, covering Central,
               Western, Harbour, and Trans Harbour zones."
             </p>
@@ -164,9 +164,9 @@ export default function Footer() {
           {/* Contact */}
           <div className="space-y-2">
             <p>Proprietor -</p>
-            <p>Harmeet Singh, Ravindra Singh</p>
+            <p>No One</p>
             <p className="font-semibold">
-              +91 9137849641, +91 9769414402
+              +91 0000000000
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 import h3 from "../../assets/h3.png";
 import h4 from "../../assets/h4.png";
 import h5 from "../../assets/h5.png";

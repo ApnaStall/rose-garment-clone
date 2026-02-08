@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <>
       <Helmet>
-        <title>404 | Raj Enterprise</title>
+        <title>404 | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

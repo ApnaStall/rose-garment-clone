@@ -9,7 +9,7 @@ function Login() {
   return (
     <>
       <Helmet>
-        <title>Login | Raj Enterprise</title>
+        <title>Login | Rose Garment Clone</title>
       </Helmet>
       <div>
       <LoginLayout>

@@ -9,7 +9,7 @@ function Products() {
             Products
         </h1>
         <p className="text-lg leading-relaxed text-gray-800">
-            Welcome to <span className="font-bold">Raj Enterprise</span>, where we specialize in manufacturing 
+            Welcome to <span className="font-bold">Rose Garment Clone</span>, where we specialize in manufacturing 
             high-quality hospital linen garments tailored for healthcare professionals and facilities. 
             Our extensive range includes doctor scrubs, patient dresses, lab coats, operation theater linens, 
             hospital uniforms, bedsheets, and more. Discover our durable and comfortable solutions designed to 

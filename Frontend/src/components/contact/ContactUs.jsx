@@ -21,11 +21,11 @@ function ContactUs() {
             <h2 className="text-5xl font-bold mb-6">Contact Us</h2>
 
             <p className="text-lg leading-relaxed text-gray-800 mb-8">
-              Thank you for considering Raj Enterprise for your hospital linen needs.
+              Thank you for considering Rose Garment Clone for your hospital linen needs.
               We are dedicated to hygiene and comfort care. If you have any questions, need assistance
               with your order, or would like to discuss custom solutions, please feel
               free to contact us. Your satisfaction is our priority, and we look
-              forward to serving you with excellence. Reach out to us today – We're
+              forward to serving you with excellence. Reach out to us today - We're
               here to help!
             </p>
 
@@ -68,9 +68,7 @@ function ContactUs() {
               <FaMapMarkerAlt size={24} />
             </div>
             <p>
-              Vikroli Park Site,
-              Ghatkopar, Mumbai
-              Maharashtra - 400079 (MH.)
+              Thane, Maharashtra
             </p>
           </div>
 
@@ -81,11 +79,11 @@ function ContactUs() {
             <p
               className="cursor-pointer"
               onClick={() => {
-                navigator.clipboard.writeText("rajenterprise04117@gmail.com");
+                navigator.clipboard.writeText("rosegarmentclone@example.com");
                 showToast("Email copied!");
               }}
             >
-              rajenterprise04117@gmail.com
+              rosegarment@gmail.com
             </p>
           </div>
 
@@ -100,7 +98,7 @@ function ContactUs() {
                 showToast("Phone number copied!");
               }}
             >
-              +91 91378 49641
+              +91 0000000000
             </p>
           </div>
         </div>

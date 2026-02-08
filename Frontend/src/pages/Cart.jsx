@@ -8,7 +8,7 @@ function Cart() {
   return (
     <>
       <Helmet>
-        <title>Cart | Raj Enterprise</title>
+        <title>Cart | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

@@ -34,7 +34,7 @@ router.get("/:orderId", authMiddleware, async (req, res) => {
     /* ================= HEADER ================= */
 
     doc.font("Helvetica-Bold").fontSize(20);
-    doc.text("Raj Enterprise", 50, 50);
+    doc.text("Rose Garment Clone", 50, 50);
 
     doc.font("Helvetica").fontSize(10);
     doc.text(
@@ -119,7 +119,7 @@ router.get("/:orderId", authMiddleware, async (req, res) => {
 
     doc.font("Helvetica").fontSize(9).fillColor("gray");
     doc.text(
-      "Thank you for shopping with Raj Enterprise.\nThis is a system generated invoice.",
+      "Thank you for shopping with Rose Garment Clone.\nThis is a system generated invoice.",
       50,
       760,
       { width: 500, align: "center" }

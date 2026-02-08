@@ -36,7 +36,7 @@ function RazorpayButton({ orderId, amount }) {
         key: import.meta.env.VITE_RAZORPAY_KEY_ID,
         amount: res.data.amount,
         currency: "INR",
-        name: "Raj Enterprise",
+        name: "Rose Garment Clone",
         description: "Order Payment",
         order_id: res.data.razorpayOrderId,
 

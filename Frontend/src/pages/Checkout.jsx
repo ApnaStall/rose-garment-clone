@@ -8,7 +8,7 @@ function Checkout() {
   return (
     <>
       <Helmet>
-        <title>Checkout | Raj Enterprise</title>
+        <title>Checkout | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

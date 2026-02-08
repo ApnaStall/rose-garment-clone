@@ -15,43 +15,43 @@ import t7 from '../../assets/t7.png';
 export default function Testimonials() {
   const reviews = [
     {
-      text: `Raj Enterprise provides impeccable hospital linen that is durable, comfortable, and essential for infection control. Their service is reliable and highly recommended for healthcare institutions.`,
+      text: `Rose Garment Clone provides impeccable hospital linen that is durable, comfortable, and essential for infection control. Their service is reliable and highly recommended for healthcare institutions.`,
       logo: t1,
       name: "Medford Hospital",
       location: "Mumbra / Maharashtra"
     },
     {
-        text: `Raj Enterprise has been our trusted partner for years, supplying high-quality hospital linen. The materials are durable, comfortable, and maintain quality through multiple washes, crucial for infection control. Their timely deliveries and responsive customer service make them a reliable choice. We highly recommend Raj Enterprise for their outstanding products and services.`,
+        text: `Rose Garment Clone has been our trusted partner for years, supplying high-quality hospital linen. The materials are durable, comfortable, and maintain quality through multiple washes, crucial for infection control. Their timely deliveries and responsive customer service make them a reliable choice. We highly recommend Rose Garment Clone for their outstanding products and services.`,
         logo: t2,
         city: "AIMS Hospital",
         location: "Mumbai / Maharashtra"
     },
     {
-      text: `Nipun Hospital relies on Raj Enterprise for top-notch hospital linen that meets our stringent standards. Their products ensure patient comfort and support our infection control measures effectively.`,
+      text: `Nipun Hospital relies on Rose Garment Clone for top-notch hospital linen that meets our stringent standards. Their products ensure patient comfort and support our infection control measures effectively.`,
       logo: t3,
       name: "Nipun Hospital",
       location: "Thane / Maharashtra"
     },
     {
-      text: `StemRx Hospital values Raj Enterprise for providing premium hospital linen that promotes patient comfort and adheres to stringent hygiene protocols. Their consistent quality and reliable service make them an indispensable partner in our healthcare delivery.`,
+      text: `StemRx Hospital values Rose Garment Clone for providing premium hospital linen that promotes patient comfort and adheres to stringent hygiene protocols. Their consistent quality and reliable service make them an indispensable partner in our healthcare delivery.`,
       logo: t4,
       name: "StemRx Hospital",
       location: "Rabale / Maharashtra"
     },
     {
-      text: `Burhani Hospital appreciates Raj Enterprise for supplying top-quality hospital linen that enhances patient comfort and upholds rigorous hygiene standards. Their reliable deliveries and exceptional customer service demonstrate a commitment to excellence, making them a trusted partner in our healthcare environment.`,
+      text: `Burhani Hospital appreciates Rose Garment Clone for supplying top-quality hospital linen that enhances patient comfort and upholds rigorous hygiene standards. Their reliable deliveries and exceptional customer service demonstrate a commitment to excellence, making them a trusted partner in our healthcare environment.`,
       logo: t5,
       name: "Burhani Hospital",
       location: "Mumbra / Maharashtra"
     },
     {
-      text: `Upasani Hospital trusts Raj Enterprise for delivering high-quality hospital linen that ensures patient comfort and meets strict hygiene standards. Their consistent reliability and dedication to service excellence make them a valued partner in our healthcare provision.`,
+      text: `Upasani Hospital trusts Rose Garment Clone for delivering high-quality hospital linen that ensures patient comfort and meets strict hygiene standards. Their consistent reliability and dedication to service excellence make them a valued partner in our healthcare provision.`,
       logo: t6,
       name: "Upasani Hospital",
       location: "Mulund / Maharashtra"
     },
     {
-      text: `Laxmi Eye Hospital values Raj Enterprise for their exceptional hospital linen, ensuring patient comfort and meeting stringent hygiene standards. Their reliable service and high-quality products contribute significantly to our operational excellence in healthcare.`,
+      text: `Laxmi Eye Hospital values Rose Garment Clone for their exceptional hospital linen, ensuring patient comfort and meeting stringent hygiene standards. Their reliable service and high-quality products contribute significantly to our operational excellence in healthcare.`,
       logo: t7,
       name: "Laxmi Eye Hospital",
       location: "Panvel / Maharashtra"

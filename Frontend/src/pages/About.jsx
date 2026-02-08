@@ -11,7 +11,7 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>About Us | Raj Enterprise</title>
+        <title>About Us | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

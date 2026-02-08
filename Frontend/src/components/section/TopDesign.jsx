@@ -15,13 +15,13 @@ export default function TopDesign() {
         
         <div className="flex items-center gap-2 text-sm md:text-base">
           <span className="text-lg">📞</span>
-          +91 9137849641
+          +91 0000000000
         </div>
 
         <div className="flex items-center gap-2 text-sm md:text-base">
           🌐
           <a href="#" className="underline">
-            www.rajenterprise.in
+            www.rose-garment-clone.in
           </a>
         </div>
 

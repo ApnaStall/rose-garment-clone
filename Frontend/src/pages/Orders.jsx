@@ -7,7 +7,7 @@ function Orders() {
   return (
     <>
       <Helmet>
-        <title>Orders | Raj Enterprise</title>
+        <title>Orders | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

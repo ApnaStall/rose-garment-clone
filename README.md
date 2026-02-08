@@ -1,10 +1,10 @@
-# Raj Enterprise 🏥👕
+# Rose Garment Clone 🏥👕
 
 
 
 ## Hospital \& Medical Textile E-Commerce Platform
 
-Raj Enterprise is a full-stack MERN-based web application for showcasing and selling hospital uniforms,
+Rose Garment Clone is a full-stack MERN-based web application for showcasing and selling hospital uniforms,
 OT linen, staff uniforms, and patient dresses.
 The platform supports category-based browsing, product filtering, admin management, and cart functionality.
 

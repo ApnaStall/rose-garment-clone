@@ -10,7 +10,7 @@ function Quality() {
   return (
     <>
       <Helmet>
-        <title>Quality | Raj Enterprise</title>
+        <title>Quality | Rose Garment Clone</title>
       </Helmet>
       <div>
           <Navbar />

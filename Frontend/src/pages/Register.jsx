@@ -9,7 +9,7 @@ function Register() {
   return (
     <>
       <Helmet>
-        <title>Register | Raj Enterprise</title>
+        <title>Register | Rose Garment Clone</title>
       </Helmet>
       <div>
       <RegisterLayout>

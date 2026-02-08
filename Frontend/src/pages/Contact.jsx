@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Raj Enterprise</title>
+        <title>Contact Us | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

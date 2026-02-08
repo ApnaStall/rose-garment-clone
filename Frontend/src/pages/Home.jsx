@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Home | Raj Enterprise</title>
+        <title>Home | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

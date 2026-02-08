@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
           <ul className="list-disc ml-5 mt-3 mb-10">
             <li>
               Commitment to Quality and Compliance:<br />
-              At <b>Raj Enterprise</b>, we prioritize quality control and strict adherence to industry regulations.
+              At <b>Rose Garment Clone</b>, we prioritize quality control and strict adherence to industry regulations.
               Our dedication to producing linen garments that meet the highest standards of hygiene, durability, and safety is unwavering.
               You can trust us to provide you with products that uphold the integrity of your healthcare environment.
             </li>

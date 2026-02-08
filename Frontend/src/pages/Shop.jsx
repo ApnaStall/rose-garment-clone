@@ -9,7 +9,7 @@ function Shop() {
   return (
     <>
       <Helmet>
-        <title>Shop | Raj Enterprise</title>
+        <title>Shop | Rose Garment Clone</title>
       </Helmet>
       <div>
         <Navbar />

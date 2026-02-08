@@ -13,7 +13,7 @@ function Payment() {
   return (
     <>
       <Helmet>
-        <title>Payment | Raj Enterprise</title>
+        <title>Payment | Rose Garment Clone</title>
       </Helmet>
       <div>
         <PaymentLayout orderId={state.orderId} amount={state.amount} />

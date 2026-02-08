@@ -8,7 +8,7 @@ function Profile() {
   return (
     <>
       <Helmet>
-        <title>Profile | Raj Enterprise</title>
+        <title>Profile | Rose Garment Clone</title>
       </Helmet>
       <div>
         <ProfileLayout fromCheckout={state?.fromCheckout} />

@@ -21,7 +21,7 @@ const Sidebar = () => {
   return (
     <aside className="w-64 bg-white shadow-md">
       <div className="p-6 text-xl font-bold text-blue-700">
-        Raj Enterprise
+        Rose Garment Clone
       </div>
 
       <nav className="flex flex-col gap-1 px-3">
