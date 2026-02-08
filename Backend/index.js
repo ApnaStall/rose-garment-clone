@@ -21,7 +21,8 @@ const app = express();
 
 /* -------------------- MIDDLEWARE -------------------- */
 const allowedOrigins = [
-  "http://localhost:5173"
+  "http://localhost:5173",
+  "https://rose-garment-clone.vercel.app"
 ];
 
 app.use((req, res, next) => {
