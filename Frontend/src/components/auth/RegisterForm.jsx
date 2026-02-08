@@ -102,7 +102,7 @@ function RegisterForm() {
 
       {/* NAME */}
       <div>
-        <label className="text-sm font-semibold text-gray-700">
+        <label for="name" className="text-sm font-semibold text-gray-700">
           Full Name
         </label>
         <input
@@ -116,7 +116,7 @@ function RegisterForm() {
 
       {/* EMAIL */}
       <div>
-        <label className="text-sm font-semibold text-gray-700">
+        <label for="email" className="text-sm font-semibold text-gray-700">
           Email
         </label>
         <input
@@ -130,7 +130,7 @@ function RegisterForm() {
 
       {/* PHONE */}
       <div>
-        <label className="text-sm font-semibold text-gray-700">
+        <label for="contact" className="text-sm font-semibold text-gray-700">
           Phone Number
         </label>
         <input
@@ -146,7 +146,7 @@ function RegisterForm() {
 
       {/* PASSWORD */}
       <div>
-        <label className="text-sm font-semibold text-gray-700">
+        <label for="password" className="text-sm font-semibold text-gray-700">
           Password
         </label>
         <input

@@ -103,7 +103,7 @@ function LoginForm() {
 
         {/* IDENTIFIER */}
         <div>
-          <label className="text-sm font-semibold text-gray-700">
+          <label for="identifier" className="text-sm font-semibold text-gray-700">
             Email or Phone
           </label>
           <input
@@ -120,7 +120,7 @@ function LoginForm() {
 
         {/* PASSWORD */}
         <div>
-          <label className="text-sm font-semibold text-gray-700">
+          <label for ="password" className="text-sm font-semibold text-gray-700">
             Password
           </label>
           <input
