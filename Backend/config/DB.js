@@ -8,7 +8,7 @@ const connectDB = async () => {
     await mongoose.connect(process.env.MONGO_URI, {dbName: "rose-garment-clone", serverSelectionTimeoutMS:50000});
     log("MongoDB Connected Successfully");
   } catch (err) {
-    error("MongoDB Connection Failed:", error.reason);
+    error("MongoDB Connection Failed:", err.message);
     process.exit(1);
   }
 };
