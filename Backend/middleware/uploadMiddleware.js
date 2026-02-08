@@ -2,7 +2,7 @@ const multer = require("multer");
 const path = require("path");
 const fs = require("fs");
 
-// ABSOLUTE uploads path (CRITICAL)
+// ABSOLUTE uploads path (CRITICAL for Render + local)
 const uploadDir = path.join(process.cwd(), "uploads");
 
 // ensure uploads directory exists
@@ -18,11 +18,29 @@ const storage = multer.diskStorage({
   filename: (req, file, cb) => {
     const ext = path.extname(file.originalname).toLowerCase();
 
-    // TEMP: log to verify multer runs
-    console.log("📁 Saving uploaded file, ext:", ext);
+    // original name without extension
+    const baseName = path.basename(file.originalname, ext);
 
-    const filename = `Product_${Date.now()}${ext}`;
-    cb(null, filename);
+    // make filename URL-safe
+    const safeBaseName = baseName
+      .toLowerCase()
+      .replace(/\s+/g, "%20")          // spaces → %20
+      .replace(/[^a-z0-9%_-]/g, "");   // remove unsafe chars
+
+    const MAX_LENGTH = 100; // safe filename length (incl. extension)
+
+    let finalName;
+
+    if ((safeBaseName + ext).length <= MAX_LENGTH) {
+      // ✅ keep original name if short enough
+      finalName = safeBaseName + ext;
+    } else {
+      // ❌ too long → rename
+      finalName = `Product_${Date.now()}${ext}`;
+    }
+
+    console.log("📁 Uploaded file saved as:", finalName);
+    cb(null, finalName);
   },
 });
 
