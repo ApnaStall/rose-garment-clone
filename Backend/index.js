@@ -7,6 +7,7 @@ const serveIndex = require("serve-index");
 const connectDB = require("./config/DB");
 const adminRoute = require("./routes/AdminRoute");
 const checkoutRoute = require("./routes/CheckoutRoute");
+const cleanupRoute = require("./routes/CleanupRoute");
 const contactRoute = require("./routes/ContactRoute");
 const invoiceRoute = require("./routes/InvoiceRoute");
 const orderRoute = require("./routes/OrderRoute");
@@ -64,6 +65,7 @@ app.use(
 /* -------------------- ROUTES -------------------- */
 app.use("/api/admin", adminRoute);
 app.use("/api/checkout", checkoutRoute);
+app.use("/api/cleanup", cleanupRoute);
 app.use("/api/contact", contactRoute);
 app.use("/api/invoice", invoiceRoute);
 app.use("/api/orders", orderRoute);
