@@ -63,7 +63,7 @@ export default function CategoryCard() {
 
               <button
                 onClick={() => handleReadMore(cat.title)}
-                className="mt-2 text-[#003049] font-semibold hover:text-gray-400 text-sm text-left"
+                className="mt-2 text-[#003049] font-semibold hover:text-gray-400 text-sm text-left cursor-pointer"
               >
                 Read More
               </button>

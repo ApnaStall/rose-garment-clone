@@ -28,11 +28,13 @@ export default function Footer() {
 
               <div className="flex flex-col md:flex-row gap-4 w-full">
                 <input
+                  name="subscribe-name"
                   type="text"
                   placeholder="Enter your name"
                   className="border border-gray-300 rounded-md px-4 py-2 w-full"
                 />
                 <input
+                  name="subscribe-contact-no"
                   type="text"
                   placeholder="Enter your Contact No"
                   className="border border-gray-300 rounded-md px-4 py-2 w-full"

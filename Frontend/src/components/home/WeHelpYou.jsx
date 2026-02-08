@@ -63,7 +63,7 @@ function WeHelpYou() {
 
               <button
                 onClick={() => navigate("/services")}
-                className="mt-6 bg-[#003049] text-[#f2a900] font-semibold py-3 px-8 rounded-xl shadow-md hover:bg-[#000000] hover:text-white transition"
+                className="mt-6 bg-[#003049] text-[#f2a900] font-semibold py-3 px-8 rounded-xl shadow-md hover:bg-[#000000] hover:text-white transition cursor-pointern"
               >
                 Explore
               </button>
