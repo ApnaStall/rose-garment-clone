@@ -25,7 +25,6 @@ function Navbar() {
 
   const isLoggedIn = !!localStorage.getItem("token");
 
-  // ✅ USER STATE (for avatar auto-update)
   const [user, setUser] = useState(
     JSON.parse(localStorage.getItem("user"))
   );
@@ -47,7 +46,7 @@ function Navbar() {
   );
 
   const handleLogout = () => {
-    logout(); // removes token + user
+    logout();
     window.dispatchEvent(new Event("auth-change"));
     setOpen(false);
     navigate("/login");
@@ -60,7 +59,7 @@ function Navbar() {
   const buttonClasses =
     "flex items-center gap-2 px-4 py-2 text-[#b3c7d2] hover:bg-white hover:text-[#03519f] rounded-full transition";
 
-    const getInitials = (name = "") => {
+  const getInitials = (name = "") => {
     const parts = name.trim().split(" ");
     if (parts.length === 1) return parts[0][0]?.toUpperCase();
     return (parts[0][0] + parts[1][0]).toUpperCase();
@@ -72,22 +71,30 @@ function Navbar() {
 
       <div className="max-w-10xl mx-auto flex items-center justify-between px-4 py-6">
 
-        {/* LOGO */}
-        <div
-          className="flex items-center justify-between w-full md:w-auto cursor-pointer"
-          onClick={() => setOpen(!open)}
-        >
-          <img src={logo} alt="Logo" className="w-10 h-10 rounded-full mr-3" />
-          <h1 className="text-2xl font-bold tracking-wide">
-            Rose Garment Clone
-          </h1>
-          <span className="md:hidden text-white text-3xl ml-4 mr-5">
+        {/* LOGO + TITLE (HOME LINK) */}
+        <div className="flex items-center gap-4">
+          <NavLink
+            to="/"
+            onClick={() => setOpen(false)}
+            className="flex items-center cursor-pointer"
+          >
+            <img src={logo} alt="Logo" className="w-10 h-10 rounded-full mr-3" />
+            <h1 className="text-2xl font-bold tracking-wide">
+              Rose Garment Clone
+            </h1>
+          </NavLink>
+
+          {/* HAMBURGER (MOBILE ONLY) */}
+          <span
+            className="md:hidden text-white text-3xl cursor-pointer"
+            onClick={() => setOpen(!open)}
+          >
             ☰
           </span>
         </div>
 
         {/* DESKTOP MENU */}
-        <ul className="hidden md:flex gap-2u text-lg font-medium items-center">
+        <ul className="hidden md:flex gap-2 text-lg font-medium items-center">
 
           <NavLink to="/" className={linkClasses}><FaHome /> Home</NavLink>
           <NavLink to="/shop" className={linkClasses}><BsShopWindow /> Shop</NavLink>
@@ -96,7 +103,6 @@ function Navbar() {
           <NavLink to="/about" className={linkClasses}><FaInfoCircle /> About Us</NavLink>
           <NavLink to="/contact" className={linkClasses}><RiWechatLine /> Contact Us</NavLink>
 
-          {/* CART */}
           <NavLink to="/cart" className={linkClasses}>
             <div className="relative flex items-center gap-2">
               <FaShoppingCart /> Cart
@@ -110,18 +116,14 @@ function Navbar() {
             </div>
           </NavLink>
 
-          {/* AUTH AREA */}
           {isLoggedIn ? (
             <div className="relative">
-
-              {/* PROFILE BUTTON */}
               <button
                 onClick={() => setProfileOpen(!profileOpen)}
                 className="flex items-center gap-2 px-4 py-2 rounded-full
                            text-[#b3c7d2] hover:bg-white hover:text-[#03519f]
                            transition"
               >
-                {/* ✅ AVATAR */}
                 {user?.profilePhoto ? (
                   <img
                     src={user.profilePhoto}
@@ -140,7 +142,6 @@ function Navbar() {
                 <span>{user?.name || "Profile"}</span>
               </button>
 
-              {/* DROPDOWN */}
               {profileOpen && (
                 <div className="absolute right-0 mt-3 w-44 bg-white
                                 rounded-xl shadow-lg overflow-hidden z-50">
@@ -170,7 +171,6 @@ function Navbar() {
                   >
                     <FaSignOutAlt /> Logout
                   </button>
-
                 </div>
               )}
             </div>
